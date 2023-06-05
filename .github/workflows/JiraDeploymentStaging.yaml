@@ -4,6 +4,7 @@ name: JiraDeploymentStaging
 on:
   push:
     branches: [ "stag" ]
+  workflow_dispatch:
 
 jobs:
   build:
