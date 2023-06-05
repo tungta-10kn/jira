@@ -1,0 +1,16 @@
+name: JiraDeploymentProduction
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, world!
