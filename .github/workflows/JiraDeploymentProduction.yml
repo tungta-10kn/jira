@@ -1,4 +1,4 @@
-name: JiraDeployment
+name: JiraDeploymentProduction
 
 # Controls when the workflow will run
 on:
